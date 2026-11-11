@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    height: 100%;
+    font-family: "Inter","sans-serif";
+}
+
+body {
+    background-image: url("assets/imagens/login-riot-background.jpg");
+}
+
+
+.main-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 80px;
+}
+
+.central{
+    display: flex;
+    background-color: black;
+    border-radius: 10px;
+}
+.logo-container{
+    height: 400px;
+    width: 600px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.campo-login{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+.esqueceu-senha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 1rem;
+}
+
+.btn-sign{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #D22A35;
+    color: white;
+}
+
