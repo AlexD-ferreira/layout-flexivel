@@ -68,4 +68,9 @@ body {
     background-color: #D22A35;
     color: white;
 }
+.sub-texto{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
 
