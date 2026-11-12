@@ -23,7 +23,7 @@ body {
 }
 
 .logo-container{
-    background-color: rgba(0, 0, 0, 0.733);
+    background-color: rgba(0, 0, 0, 0.842);
     border-radius: 10px;
     padding-bottom: 30px;
     padding-top: 30px;
@@ -94,6 +94,11 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
+}
+
+.hr{
+    border-color: gray;
+    opacity: 20%;
 }
 
 .btn-acesso{
